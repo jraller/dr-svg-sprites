@@ -1,3 +1,4 @@
+/*jshint node: true*/
 /*
  * dr-svg-sprites
  *
@@ -23,7 +24,7 @@ module.exports = function (config, callback) {
 		prefix: "",
 		cssSuffix: "css",
 		units: "px"
-	}
+	};
 
 	// Merge defaults with user configuration
 	config = _.assign(defaults, config);
